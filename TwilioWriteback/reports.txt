@@ -1,0 +1,27 @@
+AVAILABLE REPORTS 
+ Text Message
+
+ADD REPORT
+PARAMETERS
+Name
+Help Text
+Show When
+Required
+Type
+Options
+datasetId
+The ID of the dataset in Domo you want to export data from (found in the URL when on dataset details)
+report == 'Past Hour'
+STRING
+phoneNumber
+Column header name for phone number of customer
+report == 'Past Hour'
+STRING
+messageBody
+Column header name for text message body
+report == 'Past Hour'
+STRING
+twilioNumber
+Phone number you would like to send texts from (please include '+1' at beginning)
+report == 'Past Hour'
+STRING
